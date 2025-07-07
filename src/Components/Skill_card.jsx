@@ -55,7 +55,7 @@ VsCode:<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height
      VsCode:"drop-shadow-[3px_3px_25px_#28B3F2]"
  }
     return(
-        <div className={`mt-24 p-15 flex flex-col items-center justify-center ${shadowMap[name]} rounded-3xl text-whites mr-24 w-20 h-20 bg-white/5`}>
+        <div className={`mt-24 p-15 flex flex-col items-center justify-center ${shadowMap[name]} rounded-3xl text-whites sm:mr-24 mr-8 sm:w-20 sm:h-20 w-12 h-12 bg-white/5`}>
         
         <p className="">{iconMap[name]}</p>
         <p className={`mb-1 text-white text-2xl `}>{name}</p>

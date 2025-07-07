@@ -3,17 +3,17 @@ export default function Navbar(){
     let [click,setClick] = useState("")
     let handleClick = (option)=>{
        
-     let  putclass = `hover:cursor-pointer mr-8 text-2xl  ${option===click?"p-2 rounded-xl  drop-shadow-red backdrop-blur-2px bg-white/5 drop-shadow-[0_0_5px_white]":""}
+     let  putclass = `hover:cursor-pointer hidden md:flex lg:flex sm:flex mr-8 text-2xl  ${option===click?"p-2 rounded-xl  drop-shadow-red backdrop-blur-2px bg-white/5 drop-shadow-[0_0_5px_white]":""}
         `
         return putclass
     }
     return (
-        <div className="w-2/3 mt-12 rounded-3xl text-white bg-white/10 backdrop-blur-[12px] h-16 fixed flex items-center z-10"> 
+        <div className="w-4/5  md:w-2/3 mt-12 rounded-3xl text-white bg-white/10 backdrop-blur-[12px] h-16 fixed flex items-center z-10"> 
        <div className="flex justify-start mr-2">
          <span style={{fontFamily:'Libertinus Mono, monospace'}} className=" ml-16 text-2xl font-[Libertinus Mono]">&lt;/&nbsp;<span className="text-gray-400">Chakresh</span>&gt;</span>
         </div>   
      <div className="flex ml-auto  items-center">
-         <a className={`${handleClick('home')}`} onClick={()=>setClick('home')} href="#home">Home</a>
+         <a className={`${handleClick('home')}`} onClick={()=>setClick('home')}  href="#home">Home</a>
                <a className={`${handleClick('about')}`} onClick={()=>setClick('about')}  href="#about" >About</a>
             <a className={`${handleClick('projects')}`} onClick={()=>setClick('projects')} href="#project">Projects</a>
             <a className={`${handleClick('skills')}`} onClick={()=>setClick('skills')}  href="#skills" >Skills</a>

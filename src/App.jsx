@@ -8,7 +8,7 @@ import Contact from "./Components/Contact.jsx"
 export default function App(){
   return(
 
-    <div  className="min-h-screen forum bg-black  flex flex-col items-center space-y-4">
+    <div  className="min-h-screen forum bg-black   flex flex-col items-center space-y-4">
       <Navbar/>
       <Home/>
       <Code/>
