@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+.force-libertinus {
+  font-family: "Libertinus Mono", monospace !important;
+}
+.forum{
+    font-family: "Forum", serif;
+}
+.code{
+   font-family: "Press Start 2P", system-ui;
+}
+.condense{
+   font-family: "Roboto Condensed", sans-serif;
+}
