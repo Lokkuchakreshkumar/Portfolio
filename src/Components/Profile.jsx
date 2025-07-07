@@ -7,7 +7,7 @@ export default function Profile(){
     <div className="w-full flex flex-col items-center h-120">
       
    <div className="sm:mt-20 mt-4 flex flex-wrap justify-center mb-15">
-        <span className="text-white flex justify-center flex-wrap text-3xl sm:text-5xl"> Hello,I am <span   className="underline force-libertinus">Chakresh</span><span className="  inline-block w-46 ml-4 h-46  bg-linear-to-r from-blue-500 to-cyan-200  text-center rounded-full mt-10 "> <img src={myphoto} alt="image" className="w-44 object-cover h-44 rounded-full inline mt-1" /></span> </span> 
+        <span className="text-white flex justify-center flex-wrap text-3xl sm:text-5xl"> Hello,I am&nbsp;<span   className="underline force-libertinus">Chakresh</span><span className="  inline-block w-46 ml-4 h-46  bg-linear-to-r from-blue-500 to-cyan-200  text-center rounded-full mt-10 "> <img src={myphoto} alt="image" className="w-44 object-cover h-44 rounded-full inline mt-1" /></span> </span> 
    </div>
    <a href="#project"><button className="p-4 text-white bg-black border border-white rounded-lg hover:border hover:border-black hover:text-black hover:bg-white hover:cursor-pointer flex justify-center items-center"><FaCode className="inline mr-2"/>See My work</button></a>
 
