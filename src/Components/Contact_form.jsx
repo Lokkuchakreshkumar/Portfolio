@@ -5,7 +5,7 @@ export default function Contact_form(){
           <div className="condense  sm:text-7xl text-4xl bg-clip-text text-transparent bg-linear-to-r from-white via-white/50 to-white/20">GET IN TOUCH WITH ME
           </div>
    
-              <form action="https://formspree.io/f/mrbkwzbg" method="POST" className='w-100 sm:w-140 md:w-140 lg:w-140  mt-32 flex flex-col items-center justify-center '>
+              <form action="https://formspree.io/f/mrbkwzbg" method="POST" className='w-[90%] sm:w-140 md:w-140 lg:w-140  mt-32 flex flex-col items-center justify-center '>
          
               <label htmlFor="Name" className='text-white mr-auto text-2xl '>Name</label>
          <input type="text" placeholder="Enter your name" id='Name' name="name" className='bg-[#171717] text-xl w-full text-white placeholder:text-2xl mt-1 h-14 px-4 rounded-xl border border-white placeholder:text-white/80' />
