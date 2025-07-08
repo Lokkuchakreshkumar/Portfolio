@@ -1,7 +1,7 @@
 export default function Code(){
     return(
         <section id="about" className="w-full flex flex-col mt-80 sm:mt-40">
-            <div className="text-7xl mr-auto ml-12 bg-clip-text bg-linear-to-r from-white to-blue-600 text-transparent">About <span className="text-blue-600">.jsx</span></div>
+            <div className="text-5xl sm:text-7xl mr-auto ml-12 bg-clip-text bg-linear-to-r from-white to-blue-600 text-transparent">About <span className="text-blue-600">.jsx</span></div>
           
            <div className="flex justify-center mt-24 leading-relaxed">
 <div className="sm:w-4/5  w-[90%] bg-white/5 rounded-3xl ">
@@ -16,7 +16,7 @@ export default function Code(){
                   <div className=" text-green-500  w-full max-w-full break-words  font-mono sm:text-lg mt-4 pr-1"> Chakresh/About@chakresh/About_chakresh <div className="text-orange-400">$&nbsp;ls</div></div>
                   <div className=" text-blue-400 font-mono text-lg mt-4"> About.txt </div>   
                     <div className=" text-green-500 font-mono sm:text-lg mt-4 break-words"> Chakresh/About@chakresh/About_chakresh <div className="text-orange-400">$&nbsp;cat About.txt</div></div>
-                    <div className="font-mono text-xl leading-relaxed mt-8 p-6 sm:p-4">#Hey, I’m <span className="text-red-500 text-3xl">Chakresh</span> -&gt; a 2nd-year B.Tech student at KL University who lives and breathes computers. I don’t just use technology; I want to understand how it truly works. From low-level languages like C to building full-stack applications with <span className="text-yellow-500">JavaScript</span>, I’ve been on a mission to decode the world of development.
+                    <div className="font-mono text-lg leading-relaxed mt-8 p-6 sm:p-4">#Hey, I’m <span className="text-red-500 text-3xl">Chakresh</span> -&gt; a 2nd-year B.Tech student at KL University who lives and breathes computers. I don’t just use technology; I want to understand how it truly works. From low-level languages like C to building full-stack applications with <span className="text-yellow-500">JavaScript</span>, I’ve been on a mission to decode the world of development.
 
 My journey began with curiosity, evolved into code, and is now shaping up into real-world solutions. I’ve already built useful tools for students — like attendance calculators and WhatsApp automation using AI.
 

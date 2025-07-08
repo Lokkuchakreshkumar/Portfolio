@@ -2,7 +2,7 @@ import Skill_Card from "./Skill_card"
 export default function Skill(){
     return (
        <section id="skills" className=" w-full flex flex-col">
-        <div className="text-transparent bg-clip-text bg-linear-to-r from-white to-green-700 text-7xl ml-12 mr-auto">Skills<span className="text-green-500">.jsx</span></div>
+        <div className="text-transparent bg-clip-text bg-linear-to-r from-white to-green-700 sm:text-7xl text-5xl ml-12 mr-auto">Skills<span className="text-green-500">.jsx</span></div>
            <div className="flex mt-24  justify-center flex-wrap">
 <Skill_Card name={"JavaScript"}/>
 <Skill_Card name={"C"}/>
