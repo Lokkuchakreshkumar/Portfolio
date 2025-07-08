@@ -4,6 +4,7 @@ import Project from "./Components/Project.jsx"
 import Skill from "./Components/Skill.jsx"
 import Code from "./Components/Code.jsx"
 import Contact from "./Components/Contact.jsx"
+import Footer from "./Components/footer.jsx"
 
 export default function App(){
   return(
@@ -15,6 +16,7 @@ export default function App(){
       <Project/>
       <Skill/>
       <Contact/>
+      <Footer/>
    
       
   </div>

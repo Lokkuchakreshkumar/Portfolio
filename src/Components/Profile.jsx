@@ -2,7 +2,7 @@ import myphoto from "../image/WhatsApp Image 2025-07-06 at 16.32.36_fe7f9f2d.jpg
 import { FaReact } from "react-icons/fa";
 import { AiOutlineSend } from "react-icons/ai";
 import { FaJsSquare } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
+
 export default function Profile(){
  return(
     <div className="w-full flex flex-col items-center h-120">
