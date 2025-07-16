@@ -8,6 +8,9 @@
 /* *{
   outline: 1px solid red;
 } */
+ body{
+  background-color: black;
+ }
 .force-libertinus {
   font-family: "Libertinus Mono", monospace !important;
 }
