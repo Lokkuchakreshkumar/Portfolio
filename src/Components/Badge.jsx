@@ -17,6 +17,6 @@ export default function Badge({tech}){
     }
     
     return(
-        <div className={`sm:p-3 p-1 sm:mr-4 m-1 font-semibold flex flex-wrap text-black rounded-3xl  ${colorMap[tech]}`}>{tech}</div>
+        <div className={`sm:p-4 p-3 sm:mr-4 m-1 font-semibold flex flex-wrap text-black rounded-3xl  ${colorMap[tech]}`}>{tech}</div>
     )
 }
