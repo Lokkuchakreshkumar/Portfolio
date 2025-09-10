@@ -15,7 +15,7 @@ export default function Profile(){
    <a href="#Contact"><button className="p-4 text-white bg-black border border-white rounded-lg hover:border hover:border-black hover:text-black hover:bg-white hover:cursor-pointer flex justify-center items-center"><AiOutlineSend className="inline mr-2"/>Let's Connect</button></a>
 
         <div className="text-center text-white text-2xl sm:text-4xl p-4 mt-8">As a <span className="bg-linear-to-r from-blue-600 p-1 rounded-xl to-cyan-600 bg-clip-text font-bold text-transparent ">Full Stack Developer</span>&nbsp;, I turn ideas into fully functional apps -&gt; frontend, backend, and beyond.</div>
-        <span className="text-white p-8 sm:text-2xl text-lg tracking-wider mt-8 leading-relaxed ">I code&nbsp;<FaJsSquare className="inline text-3xl hover:drop-shadow-[0px_0px_2px_yellow] text-yellow-300"/>(JavaScript) in my sleep and debug &nbsp;<FaReact className="inline text-3xl text-cyan-300 hover:drop-shadow-[0px_0px_10px_cyan]"/>(React) with my coffee.</span>
+        <span className="text-white text-center p-8 sm:text-2xl text-lg tracking-wider mt-8 leading-relaxed ">I code&nbsp;<FaJsSquare className="inline text-3xl hover:drop-shadow-[0px_0px_2px_yellow] text-yellow-300"/>(JavaScript) in my sleep <br></br>and debug &nbsp;<FaReact className="inline text-3xl text-cyan-300 hover:drop-shadow-[0px_0px_10px_cyan]"/>(React) with my coffee.</span>
    
     </div>
  )

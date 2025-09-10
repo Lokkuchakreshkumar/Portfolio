@@ -7,16 +7,9 @@ export default function Badge({tech}){
         mongo:"bg-green-400",
         tailwind:"bg-blue-500"
     }
-       let shadowMap = {
-       javascript:"drop-shadow-[0px_0px_6px_yellow]",
-       react:"drop-shadow-[0px_0px_6px_cyan]",
-       node:"drop-shadow-[0px_0px_6px_green]",
-       express:"drop-shadow-[0px_0px_6px_red]",
-      mongo:"drop-shadow-[0px_0px_6px_green]",
-      tailwind:"drop-shadow-[0px_0px_6px_aquamarine]"
-    }
+      
     
     return(
-        <div className={`sm:p-4 p-3 sm:mr-4 m-1 font-semibold flex flex-wrap text-black rounded-3xl  ${colorMap[tech]}`}>{tech}</div>
+        <div className={`sm:p-4 p-3 sm:mr-4 m-1  flex flex-wrap  rounded-xl  border border-white/10 shadow  bg-linear-to-b from-black to-[#151515] text-white`}>{tech}</div>
     )
 }

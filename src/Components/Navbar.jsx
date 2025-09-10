@@ -5,7 +5,7 @@ export default function Navbar(){
     let [click,setClick] = useState("")
     let handleClick = (option)=>{
        
-     let  putclass = `hover:cursor-pointer hidden md:flex lg:flex sm:flex mr-8 text-2xl  ${option===click?"p-2 rounded-xl  drop-shadow-red backdrop-blur-2px bg-white/5 drop-shadow-[0_0_5px_white]":""}
+     let  putclass = `hover:cursor-pointer hidden md:flex lg:flex sm:flex mr-8  text-2xl  ${option===click?"p-2 rounded-xl  border-white/10 border border-white/20 backdrop-blur-2xl bg-black/40 ":""}
         `
         return putclass
     }
