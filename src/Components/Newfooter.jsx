@@ -1,5 +1,5 @@
-import React from 'react'
-import { faHeart } from 'react-icons/fa'
+
+import { FaHeart } from 'react-icons/fa'
 
 const Newfooter = () => {
   return (
@@ -15,7 +15,7 @@ const Newfooter = () => {
                 
                }}
                className='inline-block'
-               ><FontAwesomeIcon icon={faHeart} className='text-cyan-500 drop-shadow-[0px_0px_15px_cyan] mx-2' /></motion.div> by chakresh
+               ><FontAwesomeIcon icon={FaHeart} className='text-cyan-500 drop-shadow-[0px_0px_15px_cyan] mx-2' /></motion.div> by chakresh
             </div>
             <div className='flex flex-col items-center'>
                 &copy;2025 All rights reserved<div className='text-sm'>(if you use my template, a dm makes me happy)</div>
