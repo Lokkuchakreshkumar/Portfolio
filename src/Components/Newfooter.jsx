@@ -1,12 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart } from '@fortawesome/free-solid-svg-icons' // this is RIGHT
-import { motion } from "motion/react"
+import React from 'react'
+import { faHeart } from 'react-icons/fa'
 
-
-
-export default function Footer(){
-    return(
-        <div className="mt-8 sm:mt-16 flex flex-col sm:text-2xl text-lg   mb-8 items-center  text-white">
+const Newfooter = () => {
+  return (
+         <div className="mt-8 sm:mt-16 flex flex-col sm:text-2xl text-lg   mb-8 items-center  text-white">
             <div>
                made with <motion.div
                animate={{
@@ -24,5 +21,7 @@ export default function Footer(){
                 &copy;2025 All rights reserved<div className='text-sm'>(if you use my template, a dm makes me happy)</div>
             </div>
         </div>
-    )
+  )
 }
+
+export default Newfooter

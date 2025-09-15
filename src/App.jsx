@@ -4,7 +4,7 @@ import Project from "./Components/Project.jsx";
 import Skill from "./Components/Skill.jsx";
 import Code from "./Components/Code.jsx";
 import Contact from "./Components/Contact.jsx";
-import Footer from "./Components/Footer.jsx";
+import Newfooter from "./Components/Newfooter.jsx";
 
 import LazyLoad from "react-lazyload";
 import { motion } from "framer-motion";
@@ -64,7 +64,7 @@ export default function App() {
         </motion.div>
       </LazyLoad>
 
-      <Footer />
+      <Newfooter />
     </div>
   );
 }
