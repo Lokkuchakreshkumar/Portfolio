@@ -6,6 +6,7 @@ import Code from "./Components/Code.jsx";
 import Contact from "./Components/Contact.jsx";
 import Newfooter from "./Components/Newfooter.jsx";
 
+//footer changed
 import LazyLoad from "react-lazyload";
 import { motion } from "framer-motion";
 
