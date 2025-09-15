@@ -2,6 +2,7 @@ import myphoto from "../image/WhatsApp Image 2025-07-06 at 16.32.36_fe7f9f2d.jpg
 import { FaReact } from "react-icons/fa";
 import { AiOutlineSend } from "react-icons/ai";
 import { FaJsSquare } from "react-icons/fa";
+import pfp from "../image/5fdb0f568f5c418dfdf9e82935b46bce.jpg"
 
 export default function Profile(){
  return(
@@ -10,7 +11,7 @@ export default function Profile(){
    <div className="sm:mt-20 mt-4 flex flex-wrap justify-center items-center sm:items-center   mb-15">
         <span className="text-white flex justify-center flex-wrap text-3xl sm:text-5xl"><span className="sm:flex sm:items-center sm:mr-4">
            Hello,I am&nbsp;<span   className="underline force-libertinus">Chakresh</span>
-          </span><span className="  inline-block w-46 ml-4 h-46   bg-linear-to-r from-blue-500 to-cyan-200  text-center rounded-full mt-10 sm:m-0"> <img src={myphoto} alt="image" className="w-44 object-cover h-44 rounded-full inline mt-1 sm:mt-1" /></span> </span> 
+          </span><span className="  inline-block w-46 ml-4 h-46   bg-linear-to-r from-blue-500 to-cyan-200  text-center rounded-full mt-10 sm:m-0"> <img src={pfp} alt="image" className="w-44 object-cover h-44 rounded-full inline mt-1 sm:mt-1" /></span> </span> 
    </div>
    <a href="#Contact"><button className="p-4 text-white bg-black border border-white rounded-lg hover:border hover:border-black hover:text-black hover:bg-white hover:cursor-pointer flex justify-center items-center"><AiOutlineSend className="inline mr-2"/>Let's Connect</button></a>
 
