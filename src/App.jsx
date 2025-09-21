@@ -6,13 +6,14 @@ import Code from "./Components/Code.jsx";
 import Contact from "./Components/Contact.jsx";
 import Newfooter from "./Components/Newfooter.jsx";
 import './oneko.js'
-
+import Aurora from "./Components/Aurora.jsx";
 import LazyLoad from "react-lazyload";
 
 export default function App() {
 
   return (
-    <div className="min-h-screen forum bg-black flex flex-col items-center space-y-4">
+    <div className="min-h-screen forum flex-col items-center justify-center ">
+      <Aurora/>
       <Navbar />
 
       <LazyLoad height={400} offset={100} once>
