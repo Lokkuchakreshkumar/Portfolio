@@ -8,8 +8,8 @@ export {};
 
   const nekoEl = document.createElement("div");
 
-  let nekoPosX = 32;
-  let nekoPosY = 32;
+  let nekoPosX = 12;
+  let nekoPosY = 12;
 
   let mousePosX = 0;
   let mousePosY = 0;
