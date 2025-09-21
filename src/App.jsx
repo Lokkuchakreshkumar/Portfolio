@@ -5,7 +5,6 @@ import Skill from "./Components/Skill.jsx";
 import Code from "./Components/Code.jsx";
 import Contact from "./Components/Contact.jsx";
 import Newfooter from "./Components/Newfooter.jsx";
-
 import './oneko.js'
 
 import LazyLoad from "react-lazyload";
