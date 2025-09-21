@@ -10,9 +10,9 @@ export default function Navbar(){
         return putclass
     }
     return (
-        <div className="w-[90%]  md:w-2/3 mt-12 rounded-3xl text-white bg-white/10 backdrop-blur-[12px] h-16 fixed flex items-center z-10"> 
+        <div className="w-[90%]  md:w-2/3 mt-12 rounded-3xl text-white border border-white/25 bg-white/10 backdrop-blur-[12px] h-16 fixed flex items-center z-10"> 
        <div className="flex justify-start mr-2">
-         <span style={{fontFamily:'Libertinus Mono, monospace'}} className="  ml-2 text-lg font-[Libertinus Mono]">&lt;/&nbsp;<span className="text-gray-400">Chakresh</span>&gt;</span>
+         <span style={{fontFamily:'Libertinus Mono, monospace'}} className="  ml-2 text-lg font-[Libertinus Mono]">&lt;/&nbsp;<span className="text-blue-400">Chakresh</span>&gt;</span>
         </div>   
      <div className="flex ml-auto  items-center">
          <a className={`${handleClick('home')}`} onClick={()=>setClick('home')}  href="#home">Home</a>
