@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Card from "./P_card.jsx"
 import todo from "../image/Todo-project-ss.jpg"
 import portfolio from "../image/image.png"
@@ -9,6 +10,10 @@ export default function Project(){
     
     return(
         <section id="project" className="w-full mt-4  flex flex-col items-center justify-center">  
+          <Helmet>
+            <title>Chakresh's Projects - GoSynk, KLED, and AI Tools</title>
+            <meta name="description" content="Explore Chakresh's projects, including GoSynk, KLED, and an AI-powered tool for generating LinkedIn posts." />
+          </Helmet>
         <div className="text-transparent  text-5xl sm:text-7xl mr-auto ml-12 my-24 bg-clip-text bg-linear-to-r from-white to-yellow-400 ">Projects <span className="text-yellow-400">.jsx</span></div>
    <Card 
   img={skilldex} 

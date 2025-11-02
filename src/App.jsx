@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Navbar from "./Components/Navbar.jsx";
 import Home from "./Components/Home.jsx";
 import Project from "./Components/Project.jsx";
@@ -13,6 +14,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen forum flex-col items-center justify-center ">
+      <Helmet>
+        <title>Chakresh's Portfolio - Software Developer</title>
+        <meta name="description" content="Welcome to the portfolio of Chakresh, a skilled software developer specializing in React and modern web technologies. Explore my projects and skills." />
+        <meta name="keywords" content="Chakresh, portfolio, software developer, React developer, web developer, frontend developer, projects, skills" />
+      </Helmet>
       <Aurora/>
       <Navbar />
 
